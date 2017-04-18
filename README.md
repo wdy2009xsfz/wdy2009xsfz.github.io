@@ -1,49 +1,73 @@
-# [Air Raya Group](http://webdesign.airrayagroup.com/)
+# Space Jekyll
 
-[Sci blog](http://www.yourfreebies.org/sciblog/) is jekyll theme created by [Air Raya Group](http://webdesign.airrayagroup.com/).
+A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
 
-[demo](http://www.yourfreebies.org/sciblog/) 
+See a live demo [here](https://victorvoid.github.io/space-jekyll-template/).
 
-Unless otherwise noted, this theme is released under MIT licence. 
+![](https://github.com/victorvoid/space-jekyll-template/blob/master/screenshot.png?raw=true)
 
-## Credits
-Thank you so much for providing free resources and inspirations
-* [getbootstrap](http://getbootstrap.com/)
-* [jekyll](https://jekyllrb.com/)
-* [startboostrap](http://startbootstrap.com/)
-* [noisetexturegenerator](http://www.noisetexturegenerator.com/)
-* [yellow blue by Christos Alatzas](http://demo-yb.yellowblue.eu/)
+# Site/User Settings
 
-## Getting Started
+customize your site in ``_config.yml``
 
-To use this template, download it [here] (https://github.com/airrayagroupwebdesign/sciblog/archive/master.zip). Contact our team for customization and support. Rates may apply.
-To install *jekyll* and *this theme*
+```ruby
 
-1. type on search `cmd.exe` or command prompt
-2. In `C:\Users\my pc\desktop\blog>`
-3. Install ruby by going to `http://rubyinstaller.org/downloads/` to download
-4. When installing ruby, make sure to check `add ruby executables to your PATH`
-5. Install jekyll `C:\Users\my pc\desktop\blog\gem install jekyll`
-6. Create jekyll theme  `C:\Users\my pc\desktop\blog\jekyll new my-awesome-site`
-7. Go to blog my-awesome-site `C:\Users\my pc\desktop\blog>cd my-awesome-site`
-8. Preview your blog `C:\Users\my pc\desktop\blog\my-awesome-site>jekyll serve`
-9. Now browse to `http://localhost:4000`
-10. Alternatively, you can download my jekyll theme here `https://github.com/airrayagroupwebdesign/sciblog`
-11. click download zip and unzip it.
-12. You can copy and paste everything inside to blog folder in desktop such as `C:\Users\my pc\desktop\blog>`
-13. Install jekyll-paginate  `C:\Users\my pc\desktop\blog>gem install jekyll-paginate`
-14. Preview the blog and make changes `C:\Users\my pc\desktop\blog>jekyll serve`
-15. Now browse to `http://localhost:4000`
+# Site settings
+description: A blog about lorem ipsum
+baseurl: "" # the subpath
+url: "" # the base hostname &/|| protocol for your site 
 
-## Bugs and Issues
+# User settings
+username: Lorem Ipsum
+user_description: Lorem Developer
+user_title: Lorem Ipsum
+email: lorem@ipsum.com
+twitter_username: loremipsum
+github_username:  loremipsum
+gplus_username:  loremipsum
+disqus_username: loremipsum
 
-Have a bug or an issue with this template? Please contact our team airrayagroup@gmail.com or fork and contribute.
+```
 
-## Creator
+## How to create a post ? 
 
-Sci blog theme was created by and is maintained by **Air raya Group Web Design team**, at [Air Raya Group Web Design](http://webdesign.airrayagroup.com/).
+_posts create a file .md with structure:
 
+```md
+---
+layout: post
+title: "Lorem ipsum speak.."
+date: 2016-09-13 01:00:00
+image: '/assets/img/post-image.png'
+description: 'about tech'
+tags:
+- lorem
+- tech 
+categories:
+- Lorem ipsum
+twitter_text: 'How to speak with Lorem'
+---
+```
 
-## Copyright and License
+## License
+The MIT License (MIT)
 
-Copyright 2015 AIR RAYA GROUP. The work is licenced under MIT[](https://github.com/airrayagroupwebdesign/sciblog/blob/master/LICENSE) license.
+Copyright (c) 2016 Victor Igor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
